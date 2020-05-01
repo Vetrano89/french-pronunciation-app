@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { getResults, compareResults, MATCH_RESULTS } from '../utils/result-parsers';
-import { toPercent, getRandomInt } from '../utils/number-formatters';
+import { toPercent } from '../utils/number-formatters';
 import { useTranslateText } from '../effects/translate-effects';
 import { isEmpty } from 'lodash';
 import MicIcon from '../img/mic-icon.png';
 import RightArrowIcon from '../img/right-arrow-icon.png';
 import bemmer from 'bemmer';
-import { isDebuggerStatement } from '@babel/types';
 
 var createReactClass = require('create-react-class');
 
