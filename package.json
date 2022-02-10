@@ -10,7 +10,7 @@
     "create-react-class": "^15.6.3",
     "google-translate": "^3.0.0",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
